@@ -8,6 +8,5 @@ def third_root(x):
     return y1
 
 
-print("Введите x: ", end="")
-y = third_root(int(input()))
+y = third_root(int(input("Введите x: ")))
 print("Ответ:", y)
